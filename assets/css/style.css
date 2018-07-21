@@ -1,77 +1,150 @@
  @import url('https://fonts.googleapis.com/css?family=Nothing+You+Could+Do|Rock+Salt:100,200,300,400,500,600,700');
- 
- 
- 
- /*--------------------------------Header/ Navbar*/
 
-.navbar-default {
-    background-color: #1a0000;
-    border-color: #1a0000;
-}
 
-.navbar {
-    border-radius: 0px;
-}
+
+ /*-------------------------------------------------------------Header/ Navbar*/
+
+ .navbar-default {
+  background-color: #1a0000;
+  border-color: #1a0000;
+ }
+
+ .navbar {
+  border-radius: 0px;
+ }
 
  .navbar-brand img {
-     height: 40px;
-     margin-top: -10px;
-     margin-bottom: -20px;
-     display: inline-block;
+  height: 60px;
+  margin-top: -15px;
+  margin-bottom: -20px;
+  display: inline-block;
  }
- 
-  .navbar-brand img:hover {
-     opacity: 0.5;
-  }
+
+ .navbar-brand img:hover {
+  opacity: 0.5;
+ }
 
  .navbar-nav li {
-     text-decoration: none;
-     list-style-type: none;
-     text-align: center;
-     padding-top: 5px;
-     padding-right: 10px;
-     font-size: medium;
-     font-family: "Rock Salt", sans-serif;
- }
- 
- .navbar-default .navbar-nav > li > a {
-     color: #ffffff;
+  text-decoration: none;
+  list-style-type: none;
+  text-align: center;
+  padding-top: 5px;
+  padding-right: 10px;
+  font-size: medium;
+  font-family: "Rock Salt", sans-serif;
  }
 
-.navbar-default .navbar-nav > li > a:hover {
-     color: #8C7F7F;
-}
+ .navbar-default .navbar-nav>li>a {
+  color: #ffffff;
+ }
+
+ .navbar-default .navbar-nav>li>a:hover {
+  color: #8C7F7F;
+ }
 
  @media (min-width: 768px) {
-     .navbar .navbar-nav {
-         display: inline-block;
-         float: none;
-     }
+  .navbar .navbar-nav {
+   display: inline-block;
+   float: none;
+  }
 
-     .navbar .navbar-collapse {
-         text-align: center;
-     }
-     .navbar-brand img {
-         padding-left: 50px;
-     }
-      .navbar-nav {
-          padding-right: 50px;
-      }
+  .navbar .navbar-collapse {
+   text-align: center;
+  }
+  .navbar-brand img {
+   padding-left: 50px;
+  }
+  .navbar-nav {
+   padding-right: 50px;
+  }
  }
 
  @media (max-width: 768px) {
-     .navbar-brand {
-         float: none;
-     }
+  .navbar-brand {
+   float: none;
+  }
 
-     .navbar-center {
-         position: absolute;
-         width: 100%;
-         left: 0;
-         top: 0;
-         text-align: center;
-         margin: auto;
-         height: 100%;
-     }
+  .navbar-center {
+   position: absolute;
+   width: 100%;
+   left: 0;
+   top: 0;
+   text-align: center;
+   margin: auto;
+   height: 100%;
+  }
+ }
+
+ /*---------------------------------------------------------------------Footer*/
+
+div .social {
+ margin-bottom: 10px;
+}
+ .container-fluid {
+  background-color: #1a0000;
+  padding-top: 10px;
+  padding-left: 60px;
+ }
+
+.social {
+ padding-top: 5px;
+ padding-bottom: 5px;
+}
+
+.list-inline {
+ text-align: center;
+}
+
+ .social-links li a i {
+  width: 30px;
+  height: 30px;
+  margin-top: 5px;
+  margin-bottom: -5px;
+  padding: 11px 0px;
+  border-radius: 50%;
+  font-size: 14px;
+  line-height: 7px;
+  text-align: center;
+  vertical-align: top;
+  color: #ffffff;
+  background: #8C7F7F;
+  transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+ }
+
+ .social-links li a i:hover {
+  /*background: #5D4B4B;*/
+  background: linear-gradient(red, orange, yellow, green, blue, indigo, violet);
+  color: #fafafa;
+ }
+
+ .footer-logo img {
+  height: 60px;
+  opacity: 0.5;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: top;
+  padding-bottom: 5px;
+ }
+ 
+.footer-right .copyright {
+  color: #8C7F7F;
+  text-align: center;
+ }
+ 
+.footer-right .copyright>a {
+ text-decoration: none;
+  color: #ffffff;
+   transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+ }
+
+.footer-right .copyright>a:hover {
+  color: #e7e4e4;
  }
  
