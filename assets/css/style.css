@@ -80,7 +80,7 @@
 div .social {
  margin-bottom: 10px;
 }
- .container-fluid {
+ footer {
   background-color: #1a0000;
   padding-top: 10px;
   padding-left: 60px;
@@ -146,5 +146,19 @@ div .social {
 
 .footer-right .copyright>a:hover {
   color: #e7e4e4;
+ }
+ 
+  @media (max-width: 768px) {
+   footer {
+   text-align: center;
+   margin-left: auto;
+   margin-right: auto;
+   padding-left: 5px;
+  }
+
+   .social-links li a i {
+  width: 25px;
+  height: 25px;
+  }
  }
  
