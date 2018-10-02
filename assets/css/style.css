@@ -324,7 +324,87 @@ span.band-info.formatting-p {
   }
   
 }
+  /*---------------------------------------------------------------------Tour*/
+  section #tour {
+   text-align: center;
+  }
+  
+  #top_pic {
+    height: 50vh;
+    background: url('../images/crowd.jpg') no-repeat center center ; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
 
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+  
+#table-div {
+  background-color: black;
+  background: url('../images/crowd2.jpg') repeat center center;
+  height: auto;
+}
+
+#dates {
+ background: transparent;
+ margin-top: 0px;
+ margin-bottom: 10px;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ color: white;
+}
+
+#table {
+ padding-left: 0px;
+ padding-right: 0px;
+}
+
+  table {
+   height: auto;
+    width: 100%;
+    background: transparent;
+    text-align: center;
+     overflow-x: auto;
+}
+ 
+ tr {
+  color: white;
+  transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+ }
+ 
+tr:hover {
+ background-color: #707075;
+ color: #000000;
+}
+
+
+th {
+ text-align: center;
+}
+
+
+td>a {
+ color: #2aa198;
+}
+
+td>a:hover {
+ color: #19191a;
+}
+ 
  /*---------------------------------------------------------------------Footer*/
 
  div .social {
