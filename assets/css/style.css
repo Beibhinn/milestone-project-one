@@ -15,8 +15,8 @@
  /*-------------------------------------------------------------Header/ Navbar*/
 
  .navbar-default {
-  background-color: #1a0000;
-  border-color: #1a0000;
+  background-color: #09070D;
+  border-color: #09070D;
   margin-bottom: 0;
  }
 
@@ -51,7 +51,7 @@
  }
 
  .navbar-default .navbar-nav>li>a:hover {
-  color: #8C7F7F;
+  color: #848386;
  }
 
  @media (min-width: 768px) {
@@ -115,7 +115,7 @@
   height: 100%;
   width: 100%;
   color: #ffffff;
-  background: #1a0000 no-repeat center center fixed;
+  background: #09070D no-repeat center center fixed;
   background-size: cover;
  }
 
@@ -154,7 +154,7 @@
  .what-we-do-container {
   height: 100%;
   width: 100%;
-  background: #FBFBFB no-repeat center center fixed;
+  background: #fbfbfb no-repeat center center fixed;
   background-size: cover;
   color: #000000;
  }
@@ -168,25 +168,25 @@
   padding-left: 30px;
   padding-right: 30px;
  }
- 
-span.band-info.formatting-p {
+
+ span.band-info.formatting-p {
   text-align: justify;
   padding-bottom: 25px;
   padding-left: 30px;
   padding-right: 30px;
   font-family: "Habibi", sans-serif;
-  }
- 
- span.band-info.formatting-p > p {
+ }
+
+ span.band-info.formatting-p>p {
   padding-left: 0;
   padding-right: 0;
  }
- 
+
  #middle {
- padding-left: 40px;
- padding-right: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
  }
- 
+
  #bottom {
   padding-left: 40px;
   padding-right: 40px;
@@ -225,15 +225,15 @@ span.band-info.formatting-p {
   figcaption {
    padding-left: 15px;
   }
-  
+
   span.band-info {
    padding-right: 65px;
   }
-  
+
   #band-info {
    padding-left: 65px;
   }
-  
+
   #about-pic {
    padding-right: 85px;
    padding-left: 25px;
@@ -306,78 +306,108 @@ span.band-info.formatting-p {
   span.info-container {
    font-size: medium;
   }
-  
+
   #about-pic {
    margin-top: -30px;
   }
-  
-  #about-pic >img {
+
+  #about-pic>img {
    padding-bottom: 5px;
   }
-  
+
   #middle {
    margin-top: -110px;
   }
-  
+
   #bottom {
    margin-top: -20px;
   }
   
 }
-  /*---------------------------------------------------------------------Tour*/
-  section #tour {
-   text-align: center;
-  }
-  
-  #top_pic {
-    height: 50vh;
-    background: url('../images/crowd.jpg') no-repeat center center ; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    align-items: center;
-    justify-content: center;
-    position: relative;
 }
 
-.opaque-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
 }
-  
-#table-div {
+
+ /*---------------------------------------------------------------------Photos*/
+
+ .pic-bg {
+  /*background-color: #f2f2f2;*/
+  background-color: #e6e6e6;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+}
+
+
+
+ .column img {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  border-radius: 8pt;
+  vertical-align: middle;
+  width: 100%;
+  height: auto;
+ }
+
+
+
+
+ /*---------------------------------------------------------------------Tour*/
+
+ section #tour {
+  text-align: center;
+ }
+
+ #top_pic {
+  height: 50vh;
+  background: url('../images/crowd.jpg') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+ }
+
+ .opaque-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+ }
+
+ #table-div {
   background-color: black;
   background: url('../images/crowd2.jpg') repeat center center;
   height: auto;
-}
+ }
 
-#dates {
- background: transparent;
- margin-top: 0px;
- margin-bottom: 10px;
- padding-top: 10px;
- padding-bottom: 10px;
- color: white;
-}
+ #dates {
+  background: transparent;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+ }
 
-#table {
- padding-left: 0px;
- padding-right: 0px;
-}
+ #table {
+  padding-left: 0px;
+  padding-right: 0px;
+ }
 
-  table {
-   height: auto;
-    width: 100%;
-    background: transparent;
-    text-align: center;
-     overflow-x: auto;
-}
- 
+ table {
+  height: auto;
+  width: 100%;
+  background: transparent;
+  text-align: center;
+  overflow-x: auto;
+ }
+
  tr {
   color: white;
   transition: all 0.5s ease-in-out;
@@ -385,92 +415,118 @@ span.band-info.formatting-p {
   -webkit-transition: all 0.5s ease-in-out;
   -o-transition: all 0.5s ease-in-out;
  }
- 
-tr:hover {
- background-color: #707075;
- color: #000000;
-}
+
+ tr:hover {
+  background-color: #707075;
+  color: #000000;
+ }
 
 
-th {
- text-align: center;
-}
+ th {
+  text-align: center;
+ }
 
 
-td>a {
- color: #2aa198;
-}
+ td>a {
+  color: #2aa198;
+ }
 
-td>a:hover {
- color: #19191a;
-}
+ td>a:hover {
+  color: #19191a;
+ }
 
 
-  /*---------------------------------------------------------------------Contact*/
-  
-  #form-container {
-   background: url('../images/crowd4.jpg') no-repeat center center fixed;
-  }
-  
-  
-  #contact-info {
-   padding: 20px;
-   text-align: center;
-   background-color: #000000;
-   border-radius: 16pt;
-   opacity: 0.85;
-  }
-  
-  #contact {
-   color: #ffffff ;
-  }
-  
-  #contact>p {
-   font-size: medium;
-  }
-  
-  label {
-   color: #ffffff;
-   background-color: #000000;
-   border-radius: 8pt;
-   opacity: 0.75;
-   padding-left: 5px;
-   padding-right: 5px;
-  }
-  
- input[type=text], input[type=date], input[type=email], textarea {
-    width: 100%; 
-    padding: 10px; 
-    border: 1px solid #cccccc; 
-    border-radius: 4px; 
-    box-sizing: border-box; 
-    margin-top: 10px; 
-    margin-bottom: 15px; 
-    resize: both;
-}
+ /*---------------------------------------------------------------------Contact*/
 
-input[type=submit] {
-    background-color: #4c4c4d;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: all 0.5s ease-in-out;
-}
+ #form-container {
+  background: url('../images/crowd4.jpg') no-repeat center center fixed;
+ }
 
-input[type=submit]:hover {
-    background-color: #262627;
-    color: #e5e5e6;
-}
 
-#form {
-    border-radius: 5px;
-    padding: 20px;
-}
- 
- 
- 
+ #contact-info {
+  padding: 20px;
+  text-align: center;
+  background-color: #000000;
+  border-radius: 16pt;
+  opacity: 0.85;
+ }
+
+ #contact {
+  color: #ffffff;
+ }
+
+ #contact>p {
+  font-size: medium;
+ }
+
+ label {
+  color: #ffffff;
+  background-color: #000000;
+  border-radius: 8pt;
+  opacity: 0.75;
+  padding-left: 5px;
+  padding-right: 5px;
+ }
+
+ input[type=text],
+ input[type=date],
+ input[type=email],
+ textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  resize: both;
+ }
+
+ input[type=submit] {
+  background-color: #4c4c4d;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+ }
+
+ input[type=submit]:hover {
+  background-color: #262627;
+  color: #e5e5e6;
+ }
+
+ #form {
+  border-radius: 5px;
+  padding: 20px;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  /*---------------------------------------------------------------------Footer*/
 
  div .social {
@@ -478,7 +534,7 @@ input[type=submit]:hover {
  }
 
  footer {
-  background-color: #1a0000;
+  background-color: #09070D;
   padding-top: 10px;
   padding-left: 60px;
   position: static;
@@ -508,7 +564,7 @@ input[type=submit]:hover {
   text-align: center;
   vertical-align: top;
   color: #ffffff;
-  background: #8C7F7F;
+  background: #848386;
   transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
   -webkit-transition: all 0.5s ease-in-out;
@@ -532,7 +588,7 @@ input[type=submit]:hover {
  }
 
  .footer-right .copyright {
-  color: #8C7F7F;
+  color: #848386;
   text-align: center;
  }
 
@@ -546,7 +602,7 @@ input[type=submit]:hover {
  }
 
  .footer-right .copyright>a:hover {
-  color: #e7e4e4;
+  color: #cccbcd;
  }
 
  @media (max-width: 768px) {
