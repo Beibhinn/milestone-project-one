@@ -162,99 +162,130 @@
  .info-container {
   padding-left: 10px;
   padding-right: 10px;
+
+
+ /*---------------------------------------------------------------------Music*/
+.wall-bg{
+   background: url('../images/wall6.jpg') repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: auto;
+}
+
+#music-title {
+ margin-top: 20px;
+ margin-bottom: 20px;
+ color: #ffffff;
+}
+
+ .spotify>iframe {
+  width: 100%;
+
  }
 
- #band-info {
-  padding-left: 30px;
-  padding-right: 30px;
+ .size-1>iframe {
+  height: 260px;
  }
 
- span.band-info.formatting-p {
-  text-align: justify;
-  padding-bottom: 25px;
-  padding-left: 30px;
-  padding-right: 30px;
-  font-family: "Habibi", sans-serif;
+
+ #album10>iframe {
+  height: 300px;
  }
 
- span.band-info.formatting-p>p {
-  padding-left: 0;
-  padding-right: 0;
+
+ #album14>iframe {
+  height: 340px;
  }
 
- #middle {
-  padding-left: 40px;
-  padding-right: 40px;
+ .size-2>iframe {
+  height: 440px;
  }
 
- #bottom {
-  padding-left: 40px;
-  padding-right: 40px;
+ .size-3>iframe {
+  height: 460px;
  }
 
- @media (max-width: 768px) {
-  .band-photo {
-   background-size: cover;
-   
-  }
-  
-.band-photo>img {
- padding-left: 0;
+ .size-4>iframe {
+  height: 520px;
  }
- 
- #middle {
-  padding-bottom: 0;
+
+ #album12>iframe {
+  height: 620px;
+ }
+
+ #album1>iframe {
+  height: 790px;
+ }
+
+ #album5>iframe {
+  height: 960px;
+ }
+
+@media (min-width: 768px) {
+  #album11>iframe {
+  height: 300px;
+ }
+ #album14>iframe {
+  height: 440px;
+ }
+ #album9>iframe {
+  height: 460px;
+ }
+  #album12>iframe {
+  height: 790px;
  }
 }
 
- @media (min-width: 768px) {
-  .photo-container {
-   width: 200rem;
-  }
-  
-  figure.band-photo{
-   padding-left: 50px;
-   padding-right: 50px;
-   display: inline-block;
-  }
-  
-  figure > img  {												 
-   width: 100%;
-  }
-  
-  figcaption {
-   padding-left: 15px;
-  }
-
-  span.band-info {
-   padding-right: 65px;
-  }
-
-  #band-info {
-   padding-left: 65px;
-  }
-
-  #about-pic {
-   padding-right: 85px;
-   padding-left: 25px;
-  }
-  
- /* .band-info.formatting-p {
-   padding-left: 50px;
-  } */
-  
- span.band-info.formatting-p {
-  text-align: justify;
-  padding-bottom: 25px;
-  padding-left: 65px;
-  padding-right: 65px;
-  font-family: "Habibi", sans-serif;
+ @media (min-width: 992px) {
+  #album11>iframe {
+  height: 440px;
  }
- 
- #middle {
-  padding-left: 70px;
-  padding-right: 70px;
-  padding-bottom: 0;
+ #album10>iframe {
+    height: 440px;
+ }
+  #album14>iframe {
+   height: 440px;
+  }
+  #album9>iframe {
+   height: 520px;
+  }
+  #album3>iframe {
+    height: 520px;
+  }
+  #album12>iframe {
+   height: 960px;
+  }
+  #album1>iframe {
+   height: 960px;
+  }
+}  
+
+ @media (min-width: 1200px) {
+  #album11>iframe {
+  height: 260px;
+  }
+  #album10>iframe {
+    height: 440px;
+  }
+  #album14>iframe {
+   height: 440px;
+  }
+  #album9>iframe {
+   height: 460px;
+  }
+  #album3>iframe {
+    height: 520px;
+  }
+  #album12>iframe {
+   height: 960px;
+  }
+  #album1>iframe {
+   height: 960px;
+  }
+ }  
+
+
  }
  
  #bottom {
