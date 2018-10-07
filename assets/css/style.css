@@ -262,7 +262,7 @@ figure.band-photo {
 
  .spotify>iframe {
   width: 100%;
-
+  border-radius: 4pt;
  }
 
  .size-1>iframe {
