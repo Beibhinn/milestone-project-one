@@ -367,78 +367,51 @@ figure.band-photo {
  }  
 
 
+ /*---------------------------------------------------------------------Videos*/
+
+
+ #videohead {
+  margin-bottom: 10px;
+  color: #ffffff;
  }
- 
- #bottom {
-  padding-left: 70px;
-  padding-right: 70px;
+
+ .vid-style {
+  padding-left: 3px;
+  padding-right: 3px;
  }
-}
 
- @media (min-width: 992px) {
-   span.band-info {
-    padding-top: 30px;
-   }
-   span.band-info.formatting-p{
-    padding-top: 0;
-    padding-left: 60px;
-    padding-right: 70px;
-   }
-  
-   #middle {
-    padding-left: 75px;
-    padding-right: 75px;
-   }
 
-   #bottom {
-    padding-left: 75px;
-    padding-right: 75px;
-   }
-}
 
-@media (min-width: 1200px) {
- 
-   #job-header {
-    margin-top: 40px;
-   }
-   .section-header >h2 {
-    margin-top: 40px;
-   }
-   
-   .info-container>.band-info>p {
-    padding-bottom: 25px;
-   }
-   span.band-info.formatting-p {
-    padding-left: 25px;
-   }
-   span.band-info.formatting-p>p {
-    padding-left: 0;
-   }
-  
-  span.info-container {
-   font-size: medium;
+ #YT_link {
+  padding-top: 0px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: medium;
+  color: #ffffff;
+ }
+
+ #YT_link>p>a {
+  color: #2aa198;
+  transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+ }
+
+ #YT_link>p>a:hover {
+  color: #1f7a72;
+ }
+
+ @media (min-width: 768px) {
+  .videos {
+   padding-bottom: 15px;
   }
-
-  #about-pic {
-   margin-top: -30px;
+  .vid-style {
+   padding-left: 10px;
+   padding-right: 10px;
   }
+ }
 
-  #about-pic>img {
-   padding-bottom: 5px;
-  }
-
-  #middle {
-   margin-top: -110px;
-  }
-
-  #bottom {
-   margin-top: -20px;
-  }
-  
-}
-}
-
-}
 
  /*---------------------------------------------------------------------Photos*/
 
