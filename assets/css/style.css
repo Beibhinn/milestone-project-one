@@ -621,11 +621,10 @@ figure.band-photo {
  footer {
   background-color: #09070D;
   padding-top: 10px;
-  padding-left: 60px;
-  position: static;
-  bottom: 0px;
-  left: 0px;
-  right: 0px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 5px;
  }
 
  .social {
