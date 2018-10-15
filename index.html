@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -7,14 +7,15 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" type="text/css" />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <title>Home Page</title>
 </head>
 
 <body>
     <header>
-        <nav class="navbar navbar-default">
+        <nav class="navbar navbar-default navbar-fixed-top">
             <div class="container-fluid">
                 <div class="navbar-header">
-                    <a class="navbar-center navbar-brand" href="index.html"><img src="./assets/images/logo-inverted.png" alt="Pink Floyd"></img></a>
+                    <a class="navbar-center navbar-brand" href="index.html"><img src="./assets/images/logo-inverted.png" alt="Pink Floyd"></a>
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-list-collapse">
                          <span class="sr-only">Toggle navigation</span>
                          <span class="icon-bar"></span>
@@ -37,18 +38,20 @@
         </nav>
     </header>
     <div class="container-fluid content-body">
-        <div class="row photo-container"></div>
+        <div class="photo-container"></div>
         <div class="container-wrapper">
-            <div class="container about-us-container content-container">
+            <div class="about-us-container">
                 <section class="about-us">
-                    <div class="col-xs-12">
-                        <div class="section-header index-head">
-                            <h2>About the Band</h2>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="section-header index-head">
+                                <h2>About the Band</h2>
+                            </div>
                         </div>
                     </div>
                     <div class="row">
                         <div class="info-container clearfix">
-                            <figure class="band-photo col-xs-12 col-sm-4 col-md-6 col-lg-4 float-left">
+                            <figure class="band-photo col-xs-12 col-sm-4 col-md-6 col-lg-4 float-left" style="padding-right: 20px;">
                                 <img src="./assets/images/Pink_Floyd_all_members.jpg" alt="Pink Floyd- all members" class="photo">
                                 <figcaption>Pink Floyd- January 1968, a photo of all five members. (Clockwise from bottom: Gilmour, Mason, Barrett, Waters, Wright)</figcaption>
                             </figure>
@@ -64,21 +67,23 @@
 
                         </div>
                     </div>
-            </div>
-            </section>
+            
+                </section>
         </div>
     </div>
     <div class="container-wrapper">
-        <div class="container-wrapper what-we-do-container">
-            <section class="job-info">
-                <div class="col-xs-12">
-                    <div class="section-header index-head" id="job-header">
-                        <h2>What we do</h2>
+        <div class="what-we-do-container">
+            <section class="about-us">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="section-header index-head" id="job-header">
+                            <h2>What we do</h2>
+                        </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="info-container clearfix">
-                        <figure class="band-photo hidden-xs col-sm-4 col-md-6 col-lg-4 float-right pull-right" id="about-pic">
+                        <figure class="band-photo col-xs-12 col-sm-4 col-md-6 col-lg-4 float-right pull-right" style="padding-left: 20px;">
                             <img src="./assets/images/the_wall.jpg" alt="The Wall Concert" class="photo">
                             <figcaption>'The Wall'- Berlin</figcaption>
                         </figure>
@@ -123,7 +128,7 @@
                 </ul>
             </div>
             <div class="col-sm-4 footer-logo">
-                <img src="./assets/images/logo-inverted.png"></img>
+                <img src="./assets/images/logo-inverted.png" alt="Pink Floyd logo">
             </div>
             <div class="col-sm-4 footer-right">
                 <p class="copyright"><i class="far fa-copyright"></i><a target="_blank" href="https://www.sonymusic.com/"> Sony Music Entertainment</a> & <a target="_blank" href="https://www.universalmusic.com/label/emi/">EMI Music</a>. All Rights Reserved.
@@ -134,7 +139,7 @@
 
     </footer>
 
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script> 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
 
