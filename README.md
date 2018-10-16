@@ -41,7 +41,7 @@ My website can be found at the following URL: [https://beibhinn.github.io/milest
 
 * As a fan, I want to be able to easily find links to the band’s other social media sites, so I can keep up-to-date with any new posts, information, music and videos.
 
-The wireframes I created for this project can be viewed [here.](https://beibhinn.github.io/milestone-project-one/Project1-Mockup.pdf) 
+The wireframes I created for this project can be viewed [here.](https://beibhinn.github.io/milestone-project-one/Project1Mockup.pdf) 
 
 ## **Features**
 
