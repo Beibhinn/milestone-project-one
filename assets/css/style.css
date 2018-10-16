@@ -552,11 +552,11 @@ iframe.videos {
   opacity: 0.85;
  }
 
- #contact {
+.contact {
   color: #ffffff;
  }
 
- #contact>p {
+.contact>p {
   font-size: medium;
  }
 
@@ -606,22 +606,66 @@ iframe.videos {
 
 
 
+ /*---------------------------------------------------------------------Thanks*/
 
 
+ #thanks-container {
+  background: url('../images/crowd4.jpg') no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  padding-top: 60px;
+  padding-left: 0;
+  padding-right: 0;
+  position: relative;
+ }
 
+ #thanks {
+  vertical-align: top;
+  padding: 20px;
+  text-align: center;
+  background-color: #000000;
+  border-radius: 16pt;
+  opacity: 0.85;
+  position: absolute;
+ }
 
+.contact>p>a {
+  color: #2aa198;
+ }
 
+.contact>p>a:hover {
+  color: #5dd5cb;
+ }
 
+ @media (min-width: 768px) {
+  #thanks {
+   top: 30vh;
+   width: 100%;
+  }
+ }
 
+ @media (min-width: 992px) {
+  #thanks-container {
+   height: 95vh;
+  }
+  #thanks {
+   width: 80%;
+   top: 35vh;
+   left: 10%;
+  }
+ }
 
-
-
-
-
-
-
-
-
+@media (min-width: 1200px) {
+ #thanks-container {
+   height: 97vh;
+  }
+  #thanks {
+   width: 60%;
+   top: 40vh;
+   left: 20%;
+  }
+}
 
 
 
