@@ -381,7 +381,7 @@ Contact:\
  -Label: Harvest Records (UK), Capitol Records (US)
 
 
-### **Acknowledgements **
+### **Acknowledgements**
 
 I received inspiration for this project from the official [Pink Floyd website,](http://www.pinkfloyd.com/) as well as from the [Queen website](http://www.queenonline.com/), and [the Police website.](https://www.thepolice.com/)
 
